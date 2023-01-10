@@ -19,7 +19,7 @@ public interface PurchaseItemMapper {
 
     @InheritInverseConfiguration
     @Mappings({
-            @Mapping(target = "idCompra", ignore = true),
+            @Mapping(target = "id.idCompra", ignore = true),
             @Mapping(target = "producto", ignore = true),
             @Mapping(target = "compra", ignore = true),
     })
